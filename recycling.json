@@ -1,0 +1,7642 @@
+{
+    "Wolf Headdress": {
+        "name": "Wolf Headdress",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Fogger-3000": {
+        "name": "Fogger-3000",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "15",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Strobe Light": {
+        "name": "Strobe Light",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Kayak": {
+        "name": "Kayak",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Cloth": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "MLRS Aiming Module": {
+        "name": "MLRS Aiming Module",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Tech Trash": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "MLRS Rocket": {
+        "name": "MLRS Rocket",
+        "resources": {
+            "Metal Pipe": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "40mm Shotgun Round": {
+        "name": "40mm Shotgun Round",
+        "resources": {
+            "Metal Fragments": [
+                "1",
+                "100"
+            ],
+            "Gun Powder": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "40mm HE Grenade": {
+        "name": "40mm HE Grenade",
+        "resources": {
+            "Gun Powder": [
+                "8",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "25"
+            ],
+            "Explosives": [
+                "1",
+                "25"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "40mm Smoke Grenade": {
+        "name": "40mm Smoke Grenade",
+        "resources": {
+            "Gun Powder": [
+                "8",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "25"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "High Velocity Arrow": {
+        "name": "High Velocity Arrow",
+        "resources": {
+            "Wood": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Wooden Arrow": {
+        "name": "Wooden Arrow",
+        "resources": {
+            "Wood": [
+                "7",
+                "100"
+            ],
+            "Stones": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Bone Arrow": {
+        "name": "Bone Arrow",
+        "resources": {
+            "Wood": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Fire Arrow": {
+        "name": "Fire Arrow",
+        "resources": {
+            "Wood": [
+                "5",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "3",
+                "100"
+            ],
+            "Cloth": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Handmade Shell": {
+        "name": "Handmade Shell",
+        "resources": {
+            "Stones": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Nailgun Nails": {
+        "name": "Nailgun Nails",
+        "resources": {
+            "Metal Fragments": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Pistol Bullet": {
+        "name": "Pistol Bullet",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Incendiary Pistol Bullet": {
+        "name": "Incendiary Pistol Bullet",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "2",
+                "100"
+            ],
+            "Sulfur": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "HV Pistol Ammo": {
+        "name": "HV Pistol Ammo",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "5.56 Rifle Ammo": {
+        "name": "5.56 Rifle Ammo",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Explosive 5.56 Rifle Ammo": {
+        "name": "Explosive 5.56 Rifle Ammo",
+        "resources": {
+            "Metal Fragments": [
+                "3",
+                "100"
+            ],
+            "Gun Powder": [
+                "5",
+                "100"
+            ],
+            "Sulfur": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Incendiary 5.56 Rifle Ammo": {
+        "name": "Incendiary 5.56 Rifle Ammo",
+        "resources": {
+            "Metal Fragments": [
+                "3",
+                "100"
+            ],
+            "Gun Powder": [
+                "3",
+                "100"
+            ],
+            "Sulfur": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "HV 5.56 Rifle Ammo": {
+        "name": "HV 5.56 Rifle Ammo",
+        "resources": {
+            "Metal Fragments": [
+                "3",
+                "100"
+            ],
+            "Gun Powder": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Rocket": {
+        "name": "Rocket",
+        "resources": {
+            "Metal Pipe": [
+                "1",
+                "100"
+            ],
+            "Gun Powder": [
+                "75",
+                "100"
+            ],
+            "Explosives": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Incendiary Rocket": {
+        "name": "Incendiary Rocket",
+        "resources": {
+            "Metal Pipe": [
+                "1",
+                "100"
+            ],
+            "Gun Powder": [
+                "125",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "125",
+                "100"
+            ],
+            "Explosives": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "High Velocity Rocket": {
+        "name": "High Velocity Rocket",
+        "resources": {
+            "Gun Powder": [
+                "50",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Homing Missile": {
+        "name": "Homing Missile",
+        "resources": {
+            "Gun Powder": [
+                "25",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ],
+            "Tech Trash": [
+                "1",
+                "25"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Smoke Rocket WIP!!!!": {
+        "name": "Smoke Rocket WIP!!!!",
+        "resources": {
+            "Metal Fragments": [
+                "40",
+                "100"
+            ],
+            "Gun Powder": [
+                "100",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "12 Gauge Buckshot": {
+        "name": "12 Gauge Buckshot",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "12 Gauge Incendiary Shell": {
+        "name": "12 Gauge Incendiary Shell",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "3",
+                "100"
+            ],
+            "Sulfur": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "12 Gauge Slug": {
+        "name": "12 Gauge Slug",
+        "resources": {
+            "Metal Fragments": [
+                "2",
+                "100"
+            ],
+            "Gun Powder": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Speargun Spear": {
+        "name": "Speargun Spear",
+        "resources": {
+            "Metal Fragments": [
+                "9",
+                "100"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Torpedo": {
+        "name": "Torpedo",
+        "resources": {
+            "Gun Powder": [
+                "5",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "17"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "Sheet Metal Double Door": {
+        "name": "Sheet Metal Double Door",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Armored Double Door": {
+        "name": "Armored Double Door",
+        "resources": {
+            "High Quality Metal": [
+                "13",
+                "100"
+            ],
+            "Gears": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wood Double Door": {
+        "name": "Wood Double Door",
+        "resources": {
+            "Wood": [
+                "175",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Sheet Metal Door": {
+        "name": "Sheet Metal Door",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Armored Door": {
+        "name": "Armored Door",
+        "resources": {
+            "High Quality Metal": [
+                "10",
+                "100"
+            ],
+            "Gears": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wooden Door": {
+        "name": "Wooden Door",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Floor grill": {
+        "name": "Floor grill",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Ladder Hatch": {
+        "name": "Ladder Hatch",
+        "resources": {
+            "Metal Fragments": [
+                "150",
+                "100"
+            ],
+            "Gears": [
+                "2",
+                "100"
+            ],
+            "Wooden Ladder": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Floor triangle grill": {
+        "name": "Floor triangle grill",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Triangle Ladder Hatch": {
+        "name": "Triangle Ladder Hatch",
+        "resources": {
+            "Metal Fragments": [
+                "150",
+                "100"
+            ],
+            "Gears": [
+                "2",
+                "100"
+            ],
+            "Wooden Ladder": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "High External Stone Gate": {
+        "name": "High External Stone Gate",
+        "resources": {
+            "Stones": [
+                "1,500",
+                "100"
+            ],
+            "Gears": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "High External Wooden Gate": {
+        "name": "High External Wooden Gate",
+        "resources": {
+            "Wood": [
+                "1,500",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wooden Ladder": {
+        "name": "Wooden Ladder",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ],
+            "Rope": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "High External Stone Wall": {
+        "name": "High External Stone Wall",
+        "resources": {
+            "Stones": [
+                "750",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "High External Wooden Wall": {
+        "name": "High External Wooden Wall",
+        "resources": {
+            "Wood": [
+                "750",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Prison Cell Gate": {
+        "name": "Prison Cell Gate",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Prison Cell Wall": {
+        "name": "Prison Cell Wall",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Chainlink Fence Gate": {
+        "name": "Chainlink Fence Gate",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Chainlink Fence": {
+        "name": "Chainlink Fence",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Garage Door": {
+        "name": "Garage Door",
+        "resources": {
+            "Metal Fragments": [
+                "150",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Netting": {
+        "name": "Netting",
+        "resources": {
+            "Rope": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Shop Front": {
+        "name": "Shop Front",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Metal Shop Front": {
+        "name": "Metal Shop Front",
+        "resources": {
+            "Metal Fragments": [
+                "125",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Metal Window Bars": {
+        "name": "Metal Window Bars",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Reinforced Glass Window": {
+        "name": "Reinforced Glass Window",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wooden Window Bars": {
+        "name": "Wooden Window Bars",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Metal horizontal embrasure": {
+        "name": "Metal horizontal embrasure",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Metal Vertical embrasure": {
+        "name": "Metal Vertical embrasure",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Strengthened Glass Window": {
+        "name": "Strengthened Glass Window",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wood Shutters": {
+        "name": "Wood Shutters",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Watch Tower": {
+        "name": "Watch Tower",
+        "resources": {
+            "Wood": [
+                "125",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Diving Fins": {
+        "name": "Diving Fins",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Diving Mask": {
+        "name": "Diving Mask",
+        "resources": {
+            "Metal Fragments": [
+                "35",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Diving Tank": {
+        "name": "Diving Tank",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Wetsuit": {
+        "name": "Wetsuit",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Frog Boots": {
+        "name": "Frog Boots",
+        "resources": {
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Gas Mask": {
+        "name": "Gas Mask",
+        "resources": {
+            "Metal Fragments": [
+                "18",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Burlap Gloves": {
+        "name": "Burlap Gloves",
+        "resources": {
+            "Cloth": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Leather Gloves": {
+        "name": "Leather Gloves",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Roadsign Gloves": {
+        "name": "Roadsign Gloves",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "Road Signs": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Tactical Gloves": {
+        "name": "Tactical Gloves",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ],
+            "Sewing Kit": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Dracula Cape": {
+        "name": "Dracula Cape",
+        "resources": {
+            "Cloth": [
+                "50",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Dracula Mask": {
+        "name": "Dracula Mask",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Ghost Costume": {
+        "name": "Ghost Costume",
+        "resources": {
+            "Cloth": [
+                "50",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Scarecrow Wrap": {
+        "name": "Scarecrow Wrap",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hide Halterneck": {
+        "name": "Hide Halterneck",
+        "resources": {
+            "Leather": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Beenie Hat": {
+        "name": "Beenie Hat",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Boonie Hat": {
+        "name": "Boonie Hat",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bucket Helmet": {
+        "name": "Bucket Helmet",
+        "resources": {
+            "Metal Fragments": [
+                "18",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Burlap Headwrap": {
+        "name": "Burlap Headwrap",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Candle Hat": {
+        "name": "Candle Hat",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Baseball Cap": {
+        "name": "Baseball Cap",
+        "resources": {
+            "Cloth": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Clatter Helmet": {
+        "name": "Clatter Helmet",
+        "resources": {
+            "Metal Fragments": [
+                "18",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Coffee Can Helmet": {
+        "name": "Coffee Can Helmet",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Metal Fragments": [
+                "30",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bone Helmet": {
+        "name": "Bone Helmet",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Bone Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Plate Helmet": {
+        "name": "Heavy Plate Helmet",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Sheet Metal": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Miners Hat": {
+        "name": "Miners Hat",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Riot Helmet": {
+        "name": "Riot Helmet",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Wood Armor Helmet": {
+        "name": "Wood Armor Helmet",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hoodie": {
+        "name": "Hoodie",
+        "resources": {
+            "Cloth": [
+                "20",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bone Armor": {
+        "name": "Bone Armor",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Bone Fragments": [
+                "35",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Plate Jacket": {
+        "name": "Heavy Plate Jacket",
+        "resources": {
+            "Sheet Metal": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Snow Jacket": {
+        "name": "Snow Jacket",
+        "resources": {
+            "Cloth": [
+                "30",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Jacket": {
+        "name": "Jacket",
+        "resources": {
+            "Cloth": [
+                "25",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Wood Chestplate": {
+        "name": "Wood Chestplate",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Lumberjack Hoodie": {
+        "name": "Lumberjack Hoodie",
+        "resources": {
+            "Cloth": [
+                "20",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Improvised Balaclava": {
+        "name": "Improvised Balaclava",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bandana Mask": {
+        "name": "Bandana Mask",
+        "resources": {
+            "Cloth": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Metal Facemask": {
+        "name": "Metal Facemask",
+        "resources": {
+            "Leather": [
+                "25",
+                "100"
+            ],
+            "High Quality Metal": [
+                "8",
+                "100"
+            ],
+            "Sewing Kit": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Night Vision Goggles": {
+        "name": "Night Vision Goggles",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Ninja Suit": {
+        "name": "Ninja Suit",
+        "resources": {
+            "Cloth": [
+                "30",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Burlap Trousers": {
+        "name": "Burlap Trousers",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Plate Pants": {
+        "name": "Heavy Plate Pants",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Sheet Metal": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hide Pants": {
+        "name": "Hide Pants",
+        "resources": {
+            "Leather": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Road Sign Kilt": {
+        "name": "Road Sign Kilt",
+        "resources": {
+            "Leather": [
+                "5",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "Road Signs": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Shorts": {
+        "name": "Shorts",
+        "resources": {
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Wood Armor Pants": {
+        "name": "Wood Armor Pants",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Pants": {
+        "name": "Pants",
+        "resources": {
+            "Cloth": [
+                "20",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hide Poncho": {
+        "name": "Hide Poncho",
+        "resources": {
+            "Leather": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Burlap Shirt": {
+        "name": "Burlap Shirt",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Shirt": {
+        "name": "Shirt",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hide Vest": {
+        "name": "Hide Vest",
+        "resources": {
+            "Leather": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Tank Top": {
+        "name": "Tank Top",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Boots": {
+        "name": "Boots",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "8",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Burlap Shoes": {
+        "name": "Burlap Shoes",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hide Boots": {
+        "name": "Hide Boots",
+        "resources": {
+            "Leather": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hide Skirt": {
+        "name": "Hide Skirt",
+        "resources": {
+            "Leather": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bandit Guard Gear": {
+        "name": "Bandit Guard Gear",
+        "resources": {
+            "Tarp": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hazmat Suit": {
+        "name": "Hazmat Suit",
+        "resources": {
+            "Tarp": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Scientist Suit": {
+        "name": "Scientist Suit",
+        "resources": {
+            "Tarp": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Arctic Scientist Suit": {
+        "name": "Arctic Scientist Suit",
+        "resources": {
+            "Tarp": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "NVGM Scientist Suit": {
+        "name": "NVGM Scientist Suit",
+        "resources": {
+            "Tarp": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Scientist Suit": {
+        "name": "Heavy Scientist Suit",
+        "resources": {
+            "Tarp": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Blue Jumpsuit": {
+        "name": "Blue Jumpsuit",
+        "resources": {
+            "Cloth": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Jumpsuit": {
+        "name": "Jumpsuit",
+        "resources": {
+            "Cloth": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Longsleeve T-Shirt": {
+        "name": "Longsleeve T-Shirt",
+        "resources": {
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "T-Shirt": {
+        "name": "T-Shirt",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Metal Chest Plate": {
+        "name": "Metal Chest Plate",
+        "resources": {
+            "Leather": [
+                "25",
+                "100"
+            ],
+            "High Quality Metal": [
+                "13",
+                "100"
+            ],
+            "Sewing Kit": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Road Sign Jacket": {
+        "name": "Road Sign Jacket",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ],
+            "Road Signs": [
+                "1",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Duct Tape": {
+        "name": "Duct Tape",
+        "resources": {
+            "Cloth": [
+                "3",
+                "100"
+            ],
+            "Glue": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Component"
+    },
+    "Low Quality Carburetor": {
+        "name": "Low Quality Carburetor",
+        "resources": {
+            "Metal Fragments": [
+                "20",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Medium Quality Carburetor": {
+        "name": "Medium Quality Carburetor",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "High Quality Carburetor": {
+        "name": "High Quality Carburetor",
+        "resources": {
+            "Metal Fragments": [
+                "85",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Low Quality Crankshaft": {
+        "name": "Low Quality Crankshaft",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Medium Quality Crankshaft": {
+        "name": "Medium Quality Crankshaft",
+        "resources": {
+            "Metal Fragments": [
+                "35",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "High Quality Crankshaft": {
+        "name": "High Quality Crankshaft",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Low Quality Pistons": {
+        "name": "Low Quality Pistons",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Medium Quality Pistons": {
+        "name": "Medium Quality Pistons",
+        "resources": {
+            "Metal Fragments": [
+                "35",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "High Quality Pistons": {
+        "name": "High Quality Pistons",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Low Quality Spark Plugs": {
+        "name": "Low Quality Spark Plugs",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Medium Quality Spark Plugs": {
+        "name": "Medium Quality Spark Plugs",
+        "resources": {
+            "Metal Fragments": [
+                "35",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "High Quality Spark Plugs": {
+        "name": "High Quality Spark Plugs",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Low Quality Valves": {
+        "name": "Low Quality Valves",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Medium Quality Valves": {
+        "name": "Medium Quality Valves",
+        "resources": {
+            "Metal Fragments": [
+                "35",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "High Quality Valves": {
+        "name": "High Quality Valves",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Electric Fuse": {
+        "name": "Electric Fuse",
+        "resources": {
+            "Scrap": [
+                "20",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Gears": {
+        "name": "Gears",
+        "resources": {
+            "Scrap": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Metal Blade": {
+        "name": "Metal Blade",
+        "resources": {
+            "Scrap": [
+                "2",
+                "100"
+            ],
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Metal Pipe": {
+        "name": "Metal Pipe",
+        "resources": {
+            "Scrap": [
+                "5",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Empty Propane Tank": {
+        "name": "Empty Propane Tank",
+        "resources": {
+            "Scrap": [
+                "1",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Road Signs": {
+        "name": "Road Signs",
+        "resources": {
+            "Scrap": [
+                "5",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Rope": {
+        "name": "Rope",
+        "resources": {
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Sewing Kit": {
+        "name": "Sewing Kit",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ],
+            "Rope": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Sheet Metal": {
+        "name": "Sheet Metal",
+        "resources": {
+            "Scrap": [
+                "8",
+                "100"
+            ],
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Metal Spring": {
+        "name": "Metal Spring",
+        "resources": {
+            "Scrap": [
+                "10",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Sticks": {
+        "name": "Sticks",
+        "resources": {
+            "Wood": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Tarp": {
+        "name": "Tarp",
+        "resources": {
+            "Cloth": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Tech Trash": {
+        "name": "Tech Trash",
+        "resources": {
+            "Scrap": [
+                "20",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Rifle Body": {
+        "name": "Rifle Body",
+        "resources": {
+            "Scrap": [
+                "25",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Semi Automatic Body": {
+        "name": "Semi Automatic Body",
+        "resources": {
+            "Scrap": [
+                "15",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "SMG Body": {
+        "name": "SMG Body",
+        "resources": {
+            "Scrap": [
+                "15",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Concrete Barricade": {
+        "name": "Concrete Barricade",
+        "resources": {
+            "Stones": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wooden Barricade Cover": {
+        "name": "Wooden Barricade Cover",
+        "resources": {
+            "Wood": [
+                "125",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Metal Barricade": {
+        "name": "Metal Barricade",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Metal Blade": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Sandbag Barricade": {
+        "name": "Sandbag Barricade",
+        "resources": {
+            "Stones": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Stone Barricade": {
+        "name": "Stone Barricade",
+        "resources": {
+            "Stones": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Wooden Barricade": {
+        "name": "Wooden Barricade",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Barbed Wooden Barricade": {
+        "name": "Barbed Wooden Barricade",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Barbeque": {
+        "name": "Barbeque",
+        "resources": {
+            "Metal Fragments": [
+                "20",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Snap Trap": {
+        "name": "Snap Trap",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Traps"
+    },
+    "Bed": {
+        "name": "Bed",
+        "resources": {
+            "Cloth": [
+                "30",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Camp Fire": {
+        "name": "Camp Fire",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Ceiling Light": {
+        "name": "Ceiling Light",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Chair": {
+        "name": "Chair",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Clan Table": {
+        "name": "Clan Table",
+        "resources": {
+            "Wood": [
+                "200",
+                "100"
+            ],
+            "Metal Fragments": [
+                "200",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Composter": {
+        "name": "Composter",
+        "resources": {
+            "Tarp": [
+                "1",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Computer Station": {
+        "name": "Computer Station",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Targeting Computer": [
+                "1",
+                "50"
+            ],
+            "RF Broadcaster": [
+                "1",
+                "50"
+            ],
+            "RF Receiver": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Drone": {
+        "name": "Drone",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "100"
+            ],
+            "CCTV Camera": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Drop Box": {
+        "name": "Drop Box",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Elevator": {
+        "name": "Elevator",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Stone Fireplace": {
+        "name": "Stone Fireplace",
+        "resources": {
+            "Stones": [
+                "250",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Blue Boomer": {
+        "name": "Blue Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Champagne Boomer": {
+        "name": "Champagne Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ],
+            "Gun Powder": [
+                "38",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Green Boomer": {
+        "name": "Green Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Orange Boomer": {
+        "name": "Orange Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Pattern Boomer": {
+        "name": "Pattern Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Red Boomer": {
+        "name": "Red Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Violet Boomer": {
+        "name": "Violet Boomer",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Blue Roman Candle": {
+        "name": "Blue Roman Candle",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Green Roman Candle": {
+        "name": "Green Roman Candle",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Red Roman Candle": {
+        "name": "Red Roman Candle",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Violet Roman Candle": {
+        "name": "Violet Roman Candle",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "White Volcano Firework": {
+        "name": "White Volcano Firework",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ],
+            "Gun Powder": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Red Volcano Firework": {
+        "name": "Red Volcano Firework",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ],
+            "Gun Powder": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Violet Volcano Firework": {
+        "name": "Violet Volcano Firework",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ],
+            "Gun Powder": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Wooden Floor Spikes": {
+        "name": "Wooden Floor Spikes",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Traps"
+    },
+    "Frankenstein Table": {
+        "name": "Frankenstein Table",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Fridge": {
+        "name": "Fridge",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Furnace": {
+        "name": "Large Furnace",
+        "resources": {
+            "Stones": [
+                "250",
+                "100"
+            ],
+            "Wood": [
+                "300",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Furnace": {
+        "name": "Furnace",
+        "resources": {
+            "Stones": [
+                "100",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Hitch & Trough": {
+        "name": "Hitch & Trough",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Hot Air Balloon Armor": {
+        "name": "Hot Air Balloon Armor",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Jack O Lantern Angry": {
+        "name": "Jack O Lantern Angry",
+        "resources": {
+            "Pumpkin": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Jack O Lantern Happy": {
+        "name": "Jack O Lantern Happy",
+        "resources": {
+            "Pumpkin": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Homemade Landmine": {
+        "name": "Homemade Landmine",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Gun Powder": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Traps"
+    },
+    "Lantern": {
+        "name": "Lantern",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Wood Box": {
+        "name": "Large Wood Box",
+        "resources": {
+            "Wood": [
+                "125",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Water Barrel": {
+        "name": "Water Barrel",
+        "resources": {
+            "Wood": [
+                "125",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Locker": {
+        "name": "Locker",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Wood": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Mail Box": {
+        "name": "Mail Box",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Mixing Table": {
+        "name": "Mixing Table",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Stones": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Modular Car Lift": {
+        "name": "Modular Car Lift",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Small Oil Refinery": {
+        "name": "Small Oil Refinery",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Fragments": [
+                "250",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "125",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Planter Box": {
+        "name": "Large Planter Box",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Small Planter Box": {
+        "name": "Small Planter Box",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Audio Alarm": {
+        "name": "Audio Alarm",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Smart Alarm": {
+        "name": "Smart Alarm",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Smart Switch": {
+        "name": "Smart Switch",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Storage Monitor": {
+        "name": "Storage Monitor",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Large Rechargeable Battery": {
+        "name": "Large Rechargeable Battery",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Medium Rechargeable Battery": {
+        "name": "Medium Rechargeable Battery",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Small Rechargeable Battery": {
+        "name": "Small Rechargeable Battery",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Button": {
+        "name": "Button",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Counter": {
+        "name": "Counter",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "HBHF Sensor": {
+        "name": "HBHF Sensor",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Laser Detector": {
+        "name": "Laser Detector",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Pressure Pad": {
+        "name": "Pressure Pad",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Door Controller": {
+        "name": "Door Controller",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Electric Furnace": {
+        "name": "Electric Furnace",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Electric Heater": {
+        "name": "Electric Heater",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Fluid Combiner": {
+        "name": "Fluid Combiner",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Fluid Splitter": {
+        "name": "Fluid Splitter",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Fluid Switch & Pump": {
+        "name": "Fluid Switch & Pump",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "AND Switch": {
+        "name": "AND Switch",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Blocker": {
+        "name": "Blocker",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Electrical Branch": {
+        "name": "Electrical Branch",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Root Combiner": {
+        "name": "Root Combiner",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Memory Cell": {
+        "name": "Memory Cell",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "OR Switch": {
+        "name": "OR Switch",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "RAND Switch": {
+        "name": "RAND Switch",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "RF Broadcaster": {
+        "name": "RF Broadcaster",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "RF Receiver": {
+        "name": "RF Receiver",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "XOR Switch": {
+        "name": "XOR Switch",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Small Generator": {
+        "name": "Small Generator",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Test Generator": {
+        "name": "Test Generator",
+        "resources": {
+            "High Quality Metal": [
+                "13",
+                "100"
+            ],
+            "Gears": [
+                "2",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "100"
+            ],
+            "Electric Fuse": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Large Solar Panel": {
+        "name": "Large Solar Panel",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Igniter": {
+        "name": "Igniter",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Storage Adaptor": {
+        "name": "Storage Adaptor",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Industrial Combiner": {
+        "name": "Industrial Combiner",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Industrial Conveyor": {
+        "name": "Industrial Conveyor",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Industrial Crafter": {
+        "name": "Industrial Crafter",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Industrial Splitter": {
+        "name": "Industrial Splitter",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Flasher Light": {
+        "name": "Flasher Light",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Simple Light": {
+        "name": "Simple Light",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Siren Light": {
+        "name": "Siren Light",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Powered Water Purifier": {
+        "name": "Powered Water Purifier",
+        "resources": {
+            "Metal Fragments": [
+                "150",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Switch": {
+        "name": "Switch",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Splitter": {
+        "name": "Splitter",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Sprinkler": {
+        "name": "Sprinkler",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Tesla Coil": {
+        "name": "Tesla Coil",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Timer": {
+        "name": "Timer",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Cable Tunnel": {
+        "name": "Cable Tunnel",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Water Pump": {
+        "name": "Water Pump",
+        "resources": {
+            "Wood": [
+                "125",
+                "100"
+            ],
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "PTZ CCTV Camera": {
+        "name": "PTZ CCTV Camera",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "CCTV Camera": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Reactive Target": {
+        "name": "Reactive Target",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Repair Bench": {
+        "name": "Repair Bench",
+        "resources": {
+            "Metal Fragments": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Research Table": {
+        "name": "Research Table",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Rug Bear Skin": {
+        "name": "Rug Bear Skin",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Rug": {
+        "name": "Rug",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Search Light": {
+        "name": "Search Light",
+        "resources": {
+            "Wood": [
+                "250",
+                "100"
+            ],
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Secret Lab Chair": {
+        "name": "Secret Lab Chair",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Salvaged Shelves": {
+        "name": "Salvaged Shelves",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Banner Hanging": {
+        "name": "Large Banner Hanging",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Two Sided Hanging Sign": {
+        "name": "Two Sided Hanging Sign",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Two Sided Ornate Hanging Sign": {
+        "name": "Two Sided Ornate Hanging Sign",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Landscape Picture Frame": {
+        "name": "Landscape Picture Frame",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Portrait Picture Frame": {
+        "name": "Portrait Picture Frame",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Tall Picture Frame": {
+        "name": "Tall Picture Frame",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "XL Picture Frame": {
+        "name": "XL Picture Frame",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ],
+            "Cloth": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "XXL Picture Frame": {
+        "name": "XXL Picture Frame",
+        "resources": {
+            "Wood": [
+                "88",
+                "100"
+            ],
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Banner on pole": {
+        "name": "Large Banner on pole",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Double Sign Post": {
+        "name": "Double Sign Post",
+        "resources": {
+            "Wood": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Single Sign Post": {
+        "name": "Single Sign Post",
+        "resources": {
+            "Wood": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "One Sided Town Sign Post": {
+        "name": "One Sided Town Sign Post",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Two Sided Town Sign Post": {
+        "name": "Two Sided Town Sign Post",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Huge Wooden Sign": {
+        "name": "Huge Wooden Sign",
+        "resources": {
+            "Wood": [
+                "125",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Wooden Sign": {
+        "name": "Large Wooden Sign",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Medium Wooden Sign": {
+        "name": "Medium Wooden Sign",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Small Wooden Sign": {
+        "name": "Small Wooden Sign",
+        "resources": {
+            "Wood": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Shotgun Trap": {
+        "name": "Shotgun Trap",
+        "resources": {
+            "Wood": [
+                "250",
+                "100"
+            ],
+            "Metal Fragments": [
+                "125",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Traps"
+    },
+    "Sleeping Bag": {
+        "name": "Sleeping Bag",
+        "resources": {
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Small Stash": {
+        "name": "Small Stash",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Sofa": {
+        "name": "Sofa",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Sofa - Pattern": {
+        "name": "Sofa - Pattern",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Spinning wheel": {
+        "name": "Spinning wheel",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Survival Fish Trap": {
+        "name": "Survival Fish Trap",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Cloth": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Table": {
+        "name": "Table",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Workbench Level 1": {
+        "name": "Workbench Level 1",
+        "resources": {
+            "Wood": [
+                "250",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Workbench Level 2": {
+        "name": "Workbench Level 2",
+        "resources": {
+            "Metal Fragments": [
+                "250",
+                "100"
+            ],
+            "High Quality Metal": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Workbench Level 3": {
+        "name": "Workbench Level 3",
+        "resources": {
+            "Metal Fragments": [
+                "500",
+                "100"
+            ],
+            "High Quality Metal": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Tool Cupboard": {
+        "name": "Tool Cupboard",
+        "resources": {
+            "Wood": [
+                "500",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Tuna Can Lamp": {
+        "name": "Tuna Can Lamp",
+        "resources": {
+            "Wood": [
+                "10",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ],
+            "Empty Tuna Can": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Vending Machine": {
+        "name": "Vending Machine",
+        "resources": {
+            "High Quality Metal": [
+                "10",
+                "100"
+            ],
+            "Gears": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Water Catcher": {
+        "name": "Large Water Catcher",
+        "resources": {
+            "Wood": [
+                "250",
+                "100"
+            ],
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Small Water Catcher": {
+        "name": "Small Water Catcher",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Water Purifier": {
+        "name": "Water Purifier",
+        "resources": {
+            "Metal Fragments": [
+                "8",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Empty Propane Tank": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Horizontal Weapon Rack": {
+        "name": "Horizontal Weapon Rack",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Weapon Rack Stand": {
+        "name": "Weapon Rack Stand",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Tall Weapon Rack": {
+        "name": "Tall Weapon Rack",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "88",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Wide Weapon Rack": {
+        "name": "Wide Weapon Rack",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "88",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Wind Turbine": {
+        "name": "Wind Turbine",
+        "resources": {
+            "Wood": [
+                "250",
+                "100"
+            ],
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Gears": [
+                "2",
+                "100"
+            ],
+            "Sheet Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Wood Storage Box": {
+        "name": "Wood Storage Box",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Bota Bag": {
+        "name": "Bota Bag",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Water Jug - Charitable Rust 2023": {
+        "name": "Water Jug - Charitable Rust 2023",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Food"
+    },
+    "Shovel Bass": {
+        "name": "Shovel Bass",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Cowbell": {
+        "name": "Cowbell",
+        "resources": {
+            "Metal Fragments": [
+                "18",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Junkyard Drum Kit": {
+        "name": "Junkyard Drum Kit",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Pan Flute": {
+        "name": "Pan Flute",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ],
+            "Cloth": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Acoustic Guitar": {
+        "name": "Acoustic Guitar",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Jerry Can Guitar": {
+        "name": "Jerry Can Guitar",
+        "resources": {
+            "Wood": [
+                "13",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Wheelbarrow Piano": {
+        "name": "Wheelbarrow Piano",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Canbourine": {
+        "name": "Canbourine",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Plumber's Trumpet": {
+        "name": "Plumber's Trumpet",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Sousaphone": {
+        "name": "Sousaphone",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Xylobone": {
+        "name": "Xylobone",
+        "resources": {
+            "Bone Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Door Key": {
+        "name": "Door Key",
+        "resources": {
+            "Wood": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Key Lock": {
+        "name": "Key Lock",
+        "resources": {
+            "Wood": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Code Lock": {
+        "name": "Code Lock",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Chinese Lantern": {
+        "name": "Chinese Lantern",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Dragon Door Knocker": {
+        "name": "Dragon Door Knocker",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Dragon Mask": {
+        "name": "Dragon Mask",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "New Year Gong": {
+        "name": "New Year Gong",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Ox Mask": {
+        "name": "Ox Mask",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Rabbit Mask": {
+        "name": "Rabbit Mask",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Rat Mask": {
+        "name": "Rat Mask",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Sky Lantern": {
+        "name": "Sky Lantern",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Firecracker String": {
+        "name": "Firecracker String",
+        "resources": {
+            "Gun Powder": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Tiger Mask": {
+        "name": "Tiger Mask",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Chippy Arcade Game": {
+        "name": "Chippy Arcade Game",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Door Closer": {
+        "name": "Door Closer",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Bunny Ears": {
+        "name": "Bunny Ears",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bunny Onesie": {
+        "name": "Bunny Onesie",
+        "resources": {
+            "Cloth": [
+                "20",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Bunny Hat": {
+        "name": "Bunny Hat",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Easter Door Wreath": {
+        "name": "Easter Door Wreath",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Egg Basket": {
+        "name": "Egg Basket",
+        "resources": {
+            "Scrap": [
+                "15",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Egg Suit": {
+        "name": "Egg Suit",
+        "resources": {
+            "Cloth": [
+                "30",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Rustig\u00e9 Egg - Red": {
+        "name": "Rustig\u00e9 Egg - Red",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Rustig\u00e9 Egg - Blue": {
+        "name": "Rustig\u00e9 Egg - Blue",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Rustig\u00e9 Egg - Purple": {
+        "name": "Rustig\u00e9 Egg - Purple",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Rustig\u00e9 Egg - Ivory": {
+        "name": "Rustig\u00e9 Egg - Ivory",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Rustig\u00e9 Egg - Green": {
+        "name": "Rustig\u00e9 Egg - Green",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Rustig\u00e9 Egg - White": {
+        "name": "Rustig\u00e9 Egg - White",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Nest Hat": {
+        "name": "Nest Hat",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Wolf Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Large Candle Set": {
+        "name": "Large Candle Set",
+        "resources": {
+            "Animal Fat": [
+                "10",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Small Candle Set": {
+        "name": "Small Candle Set",
+        "resources": {
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Cloth": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Carvable Pumpkin": {
+        "name": "Carvable Pumpkin",
+        "resources": {
+            "Pumpkin": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Coffin": {
+        "name": "Coffin",
+        "resources": {
+            "Wood": [
+                "400",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Cursed Cauldron": {
+        "name": "Cursed Cauldron",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Gravestone": {
+        "name": "Gravestone",
+        "resources": {
+            "Wood": [
+                "200",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Wooden Cross": {
+        "name": "Wooden Cross",
+        "resources": {
+            "Wood": [
+                "200",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Light Frankenstein Head": {
+        "name": "Light Frankenstein Head",
+        "resources": {
+            "Raw Human Meat": [
+                "2",
+                "100"
+            ],
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Light Frankenstein Legs": {
+        "name": "Light Frankenstein Legs",
+        "resources": {
+            "Raw Human Meat": [
+                "2",
+                "100"
+            ],
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Light Frankenstein Torso": {
+        "name": "Light Frankenstein Torso",
+        "resources": {
+            "Raw Human Meat": [
+                "2",
+                "100"
+            ],
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Medium Frankenstein Head": {
+        "name": "Medium Frankenstein Head",
+        "resources": {
+            "Raw Human Meat": [
+                "2",
+                "100"
+            ],
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Medium Frankenstein Legs": {
+        "name": "Medium Frankenstein Legs",
+        "resources": {
+            "Raw Human Meat": [
+                "2",
+                "100"
+            ],
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Medium Frankenstein Torso": {
+        "name": "Medium Frankenstein Torso",
+        "resources": {
+            "Raw Human Meat": [
+                "2",
+                "100"
+            ],
+            "Animal Fat": [
+                "5",
+                "100"
+            ],
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Frankenstein Head": {
+        "name": "Heavy Frankenstein Head",
+        "resources": {
+            "Raw Human Meat": [
+                "3",
+                "100"
+            ],
+            "Animal Fat": [
+                "8",
+                "100"
+            ],
+            "Bone Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Frankenstein Legs": {
+        "name": "Heavy Frankenstein Legs",
+        "resources": {
+            "Raw Human Meat": [
+                "3",
+                "100"
+            ],
+            "Animal Fat": [
+                "8",
+                "100"
+            ],
+            "Bone Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Heavy Frankenstein Torso": {
+        "name": "Heavy Frankenstein Torso",
+        "resources": {
+            "Raw Human Meat": [
+                "3",
+                "100"
+            ],
+            "Animal Fat": [
+                "8",
+                "100"
+            ],
+            "Bone Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Graveyard Fence": {
+        "name": "Graveyard Fence",
+        "resources": {
+            "Stones": [
+                "125",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Pumpkin Bucket": {
+        "name": "Pumpkin Bucket",
+        "resources": {
+            "Scrap": [
+                "15",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Scarecrow": {
+        "name": "Scarecrow",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Skull Spikes": {
+        "name": "Skull Spikes",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ],
+            "Human Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Skull Door Knocker": {
+        "name": "Skull Door Knocker",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Skull Fire Pit": {
+        "name": "Skull Fire Pit",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Human Skull": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Items"
+    },
+    "Spooky Speaker": {
+        "name": "Spooky Speaker",
+        "resources": {
+            "Wood": [
+                "200",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Surgeon Scrubs": {
+        "name": "Surgeon Scrubs",
+        "resources": {
+            "Cloth": [
+                "30",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Skull Trophy": {
+        "name": "Skull Trophy",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Card Movember Moustache": {
+        "name": "Card Movember Moustache",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Movember Moustache": {
+        "name": "Movember Moustache",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Note": {
+        "name": "Note",
+        "resources": {
+            "Wood": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Parachute": {
+        "name": "Parachute",
+        "resources": {
+            "Tarp": [
+                "1",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ],
+            "Cloth": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Green Industrial Wall Light": {
+        "name": "Green Industrial Wall Light",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Industrial Wall Light": {
+        "name": "Industrial Wall Light",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Red Industrial Wall Light": {
+        "name": "Red Industrial Wall Light",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Above Ground Pool": {
+        "name": "Above Ground Pool",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Tarp": [
+                "2",
+                "100"
+            ],
+            "Wood": [
+                "250",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Beach Chair": {
+        "name": "Beach Chair",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Beach Parasol": {
+        "name": "Beach Parasol",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Beach Table": {
+        "name": "Beach Table",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Beach Towel": {
+        "name": "Beach Towel",
+        "resources": {
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Boogie Board": {
+        "name": "Boogie Board",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Inner Tube": {
+        "name": "Inner Tube",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Instant Camera": {
+        "name": "Instant Camera",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Paddling Pool": {
+        "name": "Paddling Pool",
+        "resources": {
+            "Cloth": [
+                "50",
+                "100"
+            ],
+            "Tarp": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Landscape Photo Frame": {
+        "name": "Landscape Photo Frame",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Large Photo Frame": {
+        "name": "Large Photo Frame",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Portrait Photo Frame": {
+        "name": "Portrait Photo Frame",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Sunglasses": {
+        "name": "Sunglasses",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Water Gun": {
+        "name": "Water Gun",
+        "resources": {
+            "Metal Fragments": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Water Pistol": {
+        "name": "Water Pistol",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Twitch Rivals Trophy": {
+        "name": "Twitch Rivals Trophy",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Purple Sunglasses": {
+        "name": "Purple Sunglasses",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Headset": {
+        "name": "Headset",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Hobo Barrel": {
+        "name": "Hobo Barrel",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Advent Calendar": {
+        "name": "Advent Calendar",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Christmas Lights": {
+        "name": "Christmas Lights",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Festive Doorway Garland": {
+        "name": "Festive Doorway Garland",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Festive Double Doorway Garland": {
+        "name": "Festive Double Doorway Garland",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Giant Candy Decor": {
+        "name": "Giant Candy Decor",
+        "resources": {
+            "Cloth": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Short Ice Wall": {
+        "name": "Short Ice Wall",
+        "resources": {
+            "Stones": [
+                "150",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "High Ice Wall": {
+        "name": "High Ice Wall",
+        "resources": {
+            "Stones": [
+                "750",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Giant Lollipop Decor": {
+        "name": "Giant Lollipop Decor",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Small Neon Sign": {
+        "name": "Small Neon Sign",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Medium Animated Neon Sign": {
+        "name": "Medium Animated Neon Sign",
+        "resources": {
+            "Metal Fragments": [
+                "150",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Medium Neon Sign": {
+        "name": "Medium Neon Sign",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Large Animated Neon Sign": {
+        "name": "Large Animated Neon Sign",
+        "resources": {
+            "Metal Fragments": [
+                "175",
+                "100"
+            ],
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Large Neon Sign": {
+        "name": "Large Neon Sign",
+        "resources": {
+            "Metal Fragments": [
+                "125",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Deluxe Christmas Lights": {
+        "name": "Deluxe Christmas Lights",
+        "resources": {
+            "Metal Fragments": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Coal :(": {
+        "name": "Coal :(",
+        "resources": {
+            "Crude Oil": [
+                "2",
+                "100"
+            ],
+            "Stones": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Sled": {
+        "name": "Sled",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Wood": [
+                "250",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Snow Machine": {
+        "name": "Snow Machine",
+        "resources": {
+            "Metal Fragments": [
+                "63",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "15",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Snowball Gun": {
+        "name": "Snowball Gun",
+        "resources": {
+            "High Quality Metal": [
+                "13",
+                "100"
+            ],
+            "Metal Pipe": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Snowman": {
+        "name": "Snowman",
+        "resources": {
+            "Charcoal": [
+                "25",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Reindeer Antlers": {
+        "name": "Reindeer Antlers",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Santa Beard": {
+        "name": "Santa Beard",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Snowman Helmet": {
+        "name": "Snowman Helmet",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Festive Window Garland": {
+        "name": "Festive Window Garland",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Christmas Door Wreath": {
+        "name": "Christmas Door Wreath",
+        "resources": {
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Decorative Baubels": {
+        "name": "Decorative Baubels",
+        "resources": {
+            "Scrap": [
+                "2",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Decorative Plastic Candy Canes": {
+        "name": "Decorative Plastic Candy Canes",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Decorative Gingerbread Men": {
+        "name": "Decorative Gingerbread Men",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Tree Lights": {
+        "name": "Tree Lights",
+        "resources": {
+            "Scrap": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Decorative Pinecones": {
+        "name": "Decorative Pinecones",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Star Tree Topper": {
+        "name": "Star Tree Topper",
+        "resources": {
+            "Scrap": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Decorative Tinsel": {
+        "name": "Decorative Tinsel",
+        "resources": {
+            "Scrap": [
+                "3",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Christmas Tree": {
+        "name": "Christmas Tree",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Auto Turret": {
+        "name": "Auto Turret",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Targeting Computer": [
+                "1",
+                "50"
+            ],
+            "CCTV Camera": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Flame Turret": {
+        "name": "Flame Turret",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ],
+            "Empty Propane Tank": [
+                "1",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Traps"
+    },
+    "SAM Ammo": {
+        "name": "SAM Ammo",
+        "resources": {
+            "Gun Powder": [
+                "3",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "8"
+            ]
+        },
+        "category": "Ammunition"
+    },
+    "SAM Site": {
+        "name": "SAM Site",
+        "resources": {
+            "High Quality Metal": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Traps"
+    },
+    "CCTV Camera": {
+        "name": "CCTV Camera",
+        "resources": {
+            "Tech Trash": [
+                "2",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Empty Can Of Beans": {
+        "name": "Empty Can Of Beans",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Empty Tuna Can": {
+        "name": "Empty Tuna Can",
+        "resources": {
+            "Metal Fragments": [
+                "8",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Explosives": {
+        "name": "Explosives",
+        "resources": {
+            "Gun Powder": [
+                "25",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "2",
+                "100"
+            ],
+            "Sulfur": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Gun Powder": {
+        "name": "Gun Powder",
+        "resources": {
+            "Charcoal": [
+                "2",
+                "100"
+            ],
+            "Sulfur": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Low Grade Fuel": {
+        "name": "Low Grade Fuel",
+        "resources": {
+            "Animal Fat": [
+                "1",
+                "38"
+            ],
+            "Cloth": [
+                "1",
+                "13"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Paper": {
+        "name": "Paper",
+        "resources": {
+            "Wood": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Targeting Computer": {
+        "name": "Targeting Computer",
+        "resources": {
+            "Tech Trash": [
+                "3",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Resources"
+    },
+    "Binoculars": {
+        "name": "Binoculars",
+        "resources": {
+            "Metal Fragments": [
+                "20",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Timed Explosive Charge": {
+        "name": "Timed Explosive Charge",
+        "resources": {
+            "Explosives": [
+                "10",
+                "100"
+            ],
+            "Cloth": [
+                "3",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "RF Transmitter": {
+        "name": "RF Transmitter",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Handmade Fishing Rod": {
+        "name": "Handmade Fishing Rod",
+        "resources": {
+            "Rope": [
+                "1",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Flare": {
+        "name": "Flare",
+        "resources": {
+            "Gun Powder": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Flashlight": {
+        "name": "Flashlight",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Geiger Counter": {
+        "name": "Geiger Counter",
+        "resources": {
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Hose Tool": {
+        "name": "Hose Tool",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Jackhammer": {
+        "name": "Jackhammer",
+        "resources": {
+            "Scrap": [
+                "30",
+                "100"
+            ],
+            "Metal Blade": [
+                "3",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Large Medkit": {
+        "name": "Large Medkit",
+        "resources": {
+            "Medical Syringe": [
+                "1",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Medical"
+    },
+    "Paper Map": {
+        "name": "Paper Map",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Items"
+    },
+    "Medical Syringe": {
+        "name": "Medical Syringe",
+        "resources": {
+            "Cloth": [
+                "8",
+                "100"
+            ],
+            "Metal Fragments": [
+                "5",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Medical"
+    },
+    "RF Pager": {
+        "name": "RF Pager",
+        "resources": {
+            "Scrap": [
+                "5",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Pipe Tool": {
+        "name": "Pipe Tool",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Building Plan": {
+        "name": "Building Plan",
+        "resources": {
+            "Wood": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Construction"
+    },
+    "Smoke Grenade": {
+        "name": "Smoke Grenade",
+        "resources": {
+            "Gun Powder": [
+                "18",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Spray Can": {
+        "name": "Spray Can",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Survey Charge": {
+        "name": "Survey Charge",
+        "resources": {
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Cloth": [
+                "3",
+                "100"
+            ],
+            "Metal Fragments": [
+                "5",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Wire Tool": {
+        "name": "Wire Tool",
+        "resources": {
+            "High Quality Metal": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Electrical"
+    },
+    "Cockpit Vehicle Module": {
+        "name": "Cockpit Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Armored Cockpit Vehicle Module": {
+        "name": "Armored Cockpit Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Cockpit With Engine Vehicle Module": {
+        "name": "Cockpit With Engine Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Engine Vehicle Module": {
+        "name": "Engine Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Flatbed Vehicle Module": {
+        "name": "Flatbed Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Armored Passenger Vehicle Module": {
+        "name": "Armored Passenger Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Rear Seats Vehicle Module": {
+        "name": "Rear Seats Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Storage Vehicle Module": {
+        "name": "Storage Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Wood": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Taxi Vehicle Module": {
+        "name": "Taxi Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "88",
+                "100"
+            ],
+            "Wood": [
+                "63",
+                "100"
+            ],
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Camper Vehicle Module": {
+        "name": "Camper Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "88",
+                "100"
+            ],
+            "Wood": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Large Flatbed Vehicle Module": {
+        "name": "Large Flatbed Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "75",
+                "100"
+            ],
+            "Wood": [
+                "75",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Fuel Tank Vehicle Module": {
+        "name": "Fuel Tank Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "88",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Passenger Vehicle Module": {
+        "name": "Passenger Vehicle Module",
+        "resources": {
+            "Metal Fragments": [
+                "88",
+                "100"
+            ],
+            "Wood": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Boom Box": {
+        "name": "Boom Box",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Cloth": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Portable Boom Box": {
+        "name": "Portable Boom Box",
+        "resources": {
+            "Metal Fragments": [
+                "60",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Cassette - Long": {
+        "name": "Cassette - Long",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Cassette - Medium": {
+        "name": "Cassette - Medium",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Cassette - Short": {
+        "name": "Cassette - Short",
+        "resources": {
+            "Metal Fragments": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Cassette Recorder": {
+        "name": "Cassette Recorder",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Disco Ball": {
+        "name": "Disco Ball",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Disco Floor": {
+        "name": "Disco Floor",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Connected Speaker": {
+        "name": "Connected Speaker",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Laser Light": {
+        "name": "Laser Light",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Megaphone": {
+        "name": "Megaphone",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Microphone Stand": {
+        "name": "Microphone Stand",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Mobile Phone": {
+        "name": "Mobile Phone",
+        "resources": {
+            "Metal Fragments": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Sound Light": {
+        "name": "Sound Light",
+        "resources": {
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Fun"
+    },
+    "Telephone": {
+        "name": "Telephone",
+        "resources": {
+            "Wood": [
+                "25",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Fun"
+    },
+    "16x Zoom Scope": {
+        "name": "16x Zoom Scope",
+        "resources": {
+            "High Quality Metal": [
+                "40",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Burst Module": {
+        "name": "Burst Module",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Component"
+    },
+    "Extended Magazine": {
+        "name": "Extended Magazine",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Weapon flashlight": {
+        "name": "Weapon flashlight",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Holosight": {
+        "name": "Holosight",
+        "resources": {
+            "High Quality Metal": [
+                "6",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Weapon Lasersight": {
+        "name": "Weapon Lasersight",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Muzzle Boost": {
+        "name": "Muzzle Boost",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Muzzle Brake": {
+        "name": "Muzzle Brake",
+        "resources": {
+            "High Quality Metal": [
+                "4",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Simple Handmade Sight": {
+        "name": "Simple Handmade Sight",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Silencer": {
+        "name": "Silencer",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "8x Zoom Scope": {
+        "name": "8x Zoom Scope",
+        "resources": {
+            "High Quality Metal": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Assault Rifle": {
+        "name": "Assault Rifle",
+        "resources": {
+            "High Quality Metal": [
+                "25",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Spring": [
+                "2",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Bandage": {
+        "name": "Bandage",
+        "resources": {
+            "Cloth": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Medical"
+    },
+    "Beancan Grenade": {
+        "name": "Beancan Grenade",
+        "resources": {
+            "Gun Powder": [
+                "30",
+                "100"
+            ],
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Bolt Action Rifle": {
+        "name": "Bolt Action Rifle",
+        "resources": {
+            "High Quality Metal": [
+                "10",
+                "100"
+            ],
+            "Metal Pipe": [
+                "2",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Bone Club": {
+        "name": "Bone Club",
+        "resources": {
+            "Bone Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Bone Knife": {
+        "name": "Bone Knife",
+        "resources": {
+            "Bone Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Hunting Bow": {
+        "name": "Hunting Bow",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Cloth": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Chainsaw": {
+        "name": "Chainsaw",
+        "resources": {
+            "High Quality Metal": [
+                "3",
+                "100"
+            ],
+            "Gears": [
+                "1",
+                "100"
+            ],
+            "Metal Blade": [
+                "3",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Salvaged Cleaver": {
+        "name": "Salvaged Cleaver",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Road Signs": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Compound Bow": {
+        "name": "Compound Bow",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Crossbow": {
+        "name": "Crossbow",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Rope": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Double Barrel Shotgun": {
+        "name": "Double Barrel Shotgun",
+        "resources": {
+            "Metal Fragments": [
+                "88",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Eoka Pistol": {
+        "name": "Eoka Pistol",
+        "resources": {
+            "Wood": [
+                "38",
+                "100"
+            ],
+            "Metal Fragments": [
+                "15",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "F1 Grenade": {
+        "name": "F1 Grenade",
+        "resources": {
+            "Gun Powder": [
+                "15",
+                "100"
+            ],
+            "Metal Fragments": [
+                "13",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Flame Thrower": {
+        "name": "Flame Thrower",
+        "resources": {
+            "High Quality Metal": [
+                "8",
+                "100"
+            ],
+            "Metal Pipe": [
+                "3",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "50",
+                "100"
+            ],
+            "Empty Propane Tank": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Flashbang": {
+        "name": "Flashbang",
+        "resources": {
+            "Gun Powder": [
+                "13",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Prototype 17": {
+        "name": "Prototype 17",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Burst Module": [
+                "1",
+                "100"
+            ],
+            "Semi Automatic Body": [
+                "1",
+                "50"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Multiple Grenade Launcher": {
+        "name": "Multiple Grenade Launcher",
+        "resources": {
+            "High Quality Metal": [
+                "13",
+                "100"
+            ],
+            "Metal Pipe": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Butcher Knife": {
+        "name": "Butcher Knife",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Pitchfork": {
+        "name": "Pitchfork",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Sickle": {
+        "name": "Sickle",
+        "resources": {
+            "Metal Fragments": [
+                "100",
+                "100"
+            ]
+        },
+        "category": "Misc"
+    },
+    "Vampire Stake": {
+        "name": "Vampire Stake",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Hammer": {
+        "name": "Hammer",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Hatchet": {
+        "name": "Hatchet",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "HMLMG": {
+        "name": "HMLMG",
+        "resources": {
+            "High Quality Metal": [
+                "30",
+                "100"
+            ],
+            "Metal Spring": [
+                "2",
+                "100"
+            ],
+            "Gears": [
+                "2",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Homing Missile Launcher": {
+        "name": "Homing Missile Launcher",
+        "resources": {
+            "High Quality Metal": [
+                "10",
+                "100"
+            ],
+            "Metal Pipe": [
+                "2",
+                "100"
+            ],
+            "Tech Trash": [
+                "1",
+                "50"
+            ],
+            "CCTV Camera": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Combat Knife": {
+        "name": "Combat Knife",
+        "resources": {
+            "Metal Fragments": [
+                "13",
+                "100"
+            ],
+            "High Quality Metal": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "L96 Rifle": {
+        "name": "L96 Rifle",
+        "resources": {
+            "High Quality Metal": [
+                "20",
+                "100"
+            ],
+            "Metal Pipe": [
+                "3",
+                "100"
+            ],
+            "Metal Spring": [
+                "3",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "LR-300 Assault Rifle": {
+        "name": "LR-300 Assault Rifle",
+        "resources": {
+            "High Quality Metal": [
+                "20",
+                "100"
+            ],
+            "Metal Spring": [
+                "1",
+                "100"
+            ],
+            "Burst Module": [
+                "1",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "M249": {
+        "name": "M249",
+        "resources": {
+            "High Quality Metal": [
+                "20",
+                "100"
+            ],
+            "Metal Spring": [
+                "3",
+                "100"
+            ],
+            "Gears": [
+                "3",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "M39 Rifle": {
+        "name": "M39 Rifle",
+        "resources": {
+            "Metal Spring": [
+                "2",
+                "100"
+            ],
+            "High Quality Metal": [
+                "25",
+                "100"
+            ],
+            "Rifle Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "M92 Pistol": {
+        "name": "M92 Pistol",
+        "resources": {
+            "High Quality Metal": [
+                "13",
+                "100"
+            ],
+            "Semi Automatic Body": [
+                "1",
+                "50"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Mace": {
+        "name": "Mace",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Machete": {
+        "name": "Machete",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "20",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Molotov Cocktail": {
+        "name": "Molotov Cocktail",
+        "resources": {
+            "Cloth": [
+                "5",
+                "100"
+            ],
+            "Low Grade Fuel": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "MP5A4": {
+        "name": "MP5A4",
+        "resources": {
+            "High Quality Metal": [
+                "8",
+                "100"
+            ],
+            "Metal Spring": [
+                "1",
+                "100"
+            ],
+            "SMG Body": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Nailgun": {
+        "name": "Nailgun",
+        "resources": {
+            "Scrap": [
+                "10",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Paddle": {
+        "name": "Paddle",
+        "resources": {
+            "Metal Fragments": [
+                "8",
+                "100"
+            ],
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Metal Blade": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Pickaxe": {
+        "name": "Pickaxe",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "63",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Waterpipe Shotgun": {
+        "name": "Waterpipe Shotgun",
+        "resources": {
+            "Wood": [
+                "75",
+                "100"
+            ],
+            "Metal Fragments": [
+                "38",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Python Revolver": {
+        "name": "Python Revolver",
+        "resources": {
+            "Metal Pipe": [
+                "2",
+                "100"
+            ],
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Revolver": {
+        "name": "Revolver",
+        "resources": {
+            "Cloth": [
+                "13",
+                "100"
+            ],
+            "Metal Fragments": [
+                "63",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Rock": {
+        "name": "Rock",
+        "resources": {
+            "Stones": [
+                "5",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Rocket Launcher": {
+        "name": "Rocket Launcher",
+        "resources": {
+            "High Quality Metal": [
+                "20",
+                "100"
+            ],
+            "Metal Pipe": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Salvaged Axe": {
+        "name": "Salvaged Axe",
+        "resources": {
+            "Metal Blade": [
+                "3",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Salvaged Hammer": {
+        "name": "Salvaged Hammer",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Salvaged Icepick": {
+        "name": "Salvaged Icepick",
+        "resources": {
+            "Metal Blade": [
+                "3",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Satchel Charge": {
+        "name": "Satchel Charge",
+        "resources": {
+            "Beancan Grenade": [
+                "2",
+                "100"
+            ],
+            "Small Stash": [
+                "1",
+                "50"
+            ],
+            "Rope": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Pump Shotgun": {
+        "name": "Pump Shotgun",
+        "resources": {
+            "High Quality Metal": [
+                "8",
+                "100"
+            ],
+            "Metal Pipe": [
+                "1",
+                "100"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Semi-Automatic Pistol": {
+        "name": "Semi-Automatic Pistol",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Semi Automatic Body": [
+                "1",
+                "50"
+            ],
+            "Metal Pipe": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Semi-Automatic Rifle": {
+        "name": "Semi-Automatic Rifle",
+        "resources": {
+            "Metal Fragments": [
+                "225",
+                "100"
+            ],
+            "High Quality Metal": [
+                "2",
+                "100"
+            ],
+            "Semi Automatic Body": [
+                "1",
+                "50"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Custom SMG": {
+        "name": "Custom SMG",
+        "resources": {
+            "High Quality Metal": [
+                "4",
+                "100"
+            ],
+            "SMG Body": [
+                "1",
+                "50"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Spas-12 Shotgun": {
+        "name": "Spas-12 Shotgun",
+        "resources": {
+            "High Quality Metal": [
+                "10",
+                "100"
+            ],
+            "Metal Pipe": [
+                "2",
+                "100"
+            ],
+            "Metal Spring": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Speargun": {
+        "name": "Speargun",
+        "resources": {
+            "Metal Fragments": [
+                "38",
+                "100"
+            ],
+            "Empty Propane Tank": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Stone Hatchet": {
+        "name": "Stone Hatchet",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Stones": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Stone Pickaxe": {
+        "name": "Stone Pickaxe",
+        "resources": {
+            "Wood": [
+                "100",
+                "100"
+            ],
+            "Stones": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Stone Spear": {
+        "name": "Stone Spear",
+        "resources": {
+            "Stones": [
+                "10",
+                "100"
+            ],
+            "Wooden Spear": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Longsword": {
+        "name": "Longsword",
+        "resources": {
+            "Metal Blade": [
+                "1",
+                "100"
+            ],
+            "Metal Fragments": [
+                "50",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Salvaged Sword": {
+        "name": "Salvaged Sword",
+        "resources": {
+            "Metal Fragments": [
+                "8",
+                "100"
+            ],
+            "Metal Blade": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Thompson": {
+        "name": "Thompson",
+        "resources": {
+            "High Quality Metal": [
+                "5",
+                "100"
+            ],
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "SMG Body": [
+                "1",
+                "50"
+            ],
+            "Metal Spring": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Garry's Mod Tool Gun": {
+        "name": "Garry's Mod Tool Gun",
+        "resources": {
+            "Wood": [
+                "50",
+                "100"
+            ],
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Torch": {
+        "name": "Torch",
+        "resources": {
+            "Wood": [
+                "15",
+                "100"
+            ],
+            "Cloth": [
+                "1",
+                "50"
+            ],
+            "Low Grade Fuel": [
+                "1",
+                "50"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Water Bucket": {
+        "name": "Water Bucket",
+        "resources": {
+            "Metal Fragments": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Tool"
+    },
+    "Wooden Spear": {
+        "name": "Wooden Spear",
+        "resources": {
+            "Wood": [
+                "150",
+                "100"
+            ]
+        },
+        "category": "Weapon"
+    },
+    "Roadsign Horse Armor": {
+        "name": "Roadsign Horse Armor",
+        "resources": {
+            "Road Signs": [
+                "2",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Wooden Horse Armor": {
+        "name": "Wooden Horse Armor",
+        "resources": {
+            "Rope": [
+                "1",
+                "100"
+            ],
+            "Wood": [
+                "150",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Double Horse Saddle": {
+        "name": "Double Horse Saddle",
+        "resources": {
+            "Road Signs": [
+                "3",
+                "100"
+            ],
+            "Sewing Kit": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Horse Saddle": {
+        "name": "Horse Saddle",
+        "resources": {
+            "Leather": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Single Horse Saddle": {
+        "name": "Single Horse Saddle",
+        "resources": {
+            "Road Signs": [
+                "2",
+                "100"
+            ],
+            "Sewing Kit": [
+                "1",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Saddle bag": {
+        "name": "Saddle bag",
+        "resources": {
+            "Leather": [
+                "10",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "High Quality Horse Shoes": {
+        "name": "High Quality Horse Shoes",
+        "resources": {
+            "High Quality Metal": [
+                "2",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    },
+    "Basic Horse Shoes": {
+        "name": "Basic Horse Shoes",
+        "resources": {
+            "Metal Fragments": [
+                "25",
+                "100"
+            ]
+        },
+        "category": "Attire"
+    }
+}
