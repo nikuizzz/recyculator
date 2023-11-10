@@ -86,6 +86,8 @@ class Recycler:
             for key, value in zip(resources.keys(), resources.values()): 
                 resource_name = key
                 resource_value = int(value[0]) * ( int(value[1]) / 100 ) * amount
+                print("value 0 : " + value[0])
+                print("value 1 : " + value[1])
 
                 result.append([resource_name, resource_value])
             return result
