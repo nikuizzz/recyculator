@@ -105,7 +105,7 @@ function recycleAll(items, fullRecycle) {
         }
     }
 
-    return result
+    return sumItems(result)
 }
 
-console.log(recycleAll({"Sewing Kit": 1}, true))
+console.log(recycleAll({"Sewing Kit": 1, "Gears": 10, "Rope": 5, "Assault Rifle": 2, "Auto Turret": 3}, false))
