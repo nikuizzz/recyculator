@@ -67,8 +67,6 @@ class Recycler:
 
         return Recycler.sumItems(result)
 
-
-
     @staticmethod
     def recycle(item: str, amount: int) -> list:
         """
