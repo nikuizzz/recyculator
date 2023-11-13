@@ -3,8 +3,8 @@ import data from "./recycling.json" assert { type: 'json' }
 var rItems = data
 var rKeys = Object.keys(data)
 
-console.log(rItems)
-console.log(rKeys)
+// console.log(rItems)
+// console.log(rKeys)
 
 function sumItems(items) {
     itemsToDelete = []
@@ -40,8 +40,9 @@ function sumItems(items) {
     return items
 }
 
-function recycle(item, amount) {
+function recycle(resource, amount) {
     let result = {}
+    let item = resource
 
     // Veryfiying if item can be recycled
     if(rKeys.includes(item)) {
@@ -49,8 +50,6 @@ function recycle(item, amount) {
 
         // Adding recycled materials to result
         for(let i = 0; i < resources.length; i++) {
-            // console.log("i : " + i)
-            // console.log(resources[i])
 
             let resourceName = resources[i][0]
             let recycleAmount = resources[i][1][0]
@@ -65,7 +64,8 @@ function recycle(item, amount) {
     } 
     // If item is not in rItems
     else {
-        return {item: amount}
+        result[item] = amount
+        return result
     }
 }
 
@@ -74,16 +74,38 @@ function recycleAll(items, fullRecycle) {
     let result = {}
 
     Object.keys(items).forEach(key => {
-        console.log(key)
         let recycled = recycle(key, items[key]) // key -> name of item, items[key] -> amount to recycle
         
         Object.keys(recycled).forEach(recycledKey => {
-            result[recycledKey] = recycled[recycledKey]
+            if(recycledKey in result) {
+                result[recycledKey] += recycled[recycledKey]
+            } else {
+                result[recycledKey] = recycled[recycledKey]
+            }
         })
     });
 
-    console.log(result)
+    if(fullRecycle) {
+        let isFullyRecycled = false
+        let keys = Object.keys(result)
+
+        while(!isFullyRecycled) {
+
+
+            for(let i = 0; i < keys.length; i++) {
+                let resourceName = keys[i]
+
+                if(rKeys.includes(resourceName)) {
+                    result = recycleAll(result, true)
+                    break
+                }
+            }
+
+            isFullyRecycled = true
+        }
+    }
+
+    return result
 }
 
-recycleAll({"Sewing Kit": 5, "Assault Rifle": 2, "Gears": 2}, true)
-// console.log(recycle("Sewing Kit", 3))
+console.log(recycleAll({"Sewing Kit": 1}, true))
