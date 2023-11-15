@@ -17,6 +17,9 @@ items = {}
 for cell in bs.findAll('tr')[1::]:
     links = cell.findAll("a")
 
+    
+    path = cell.find("img")['src'].split("/")[-1]
+
     # Getting the name of the item
     name = links[0].text
 
@@ -50,9 +53,13 @@ for cell in bs.findAll('tr')[1::]:
         "name": name,
         "resources": resources,
         "category": category,
+        "path": path,
     }
 
     items[name] = item
 
-with open("recycling.json", "w") as file: 
+with open("./www/javascript/recycling.json", "w") as file: 
+    json.dump(items, file, indent=4)
+
+with open("./recycling.json", "w") as file: 
     json.dump(items, file, indent=4)
