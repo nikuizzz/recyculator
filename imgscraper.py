@@ -6,8 +6,11 @@ from colors import Colors
 import os
 
 # metal.fragments.png
-global_path = "./www/misc/items/"
-global_url = "https://rustlabs.com/img/items40/" 
+global_path_40 = "./www/misc/items40/"
+global_url_40 = "https://rustlabs.com/img/items40/" 
+
+global_path_180 = "./www/misc/items180/"
+global_url_180 = "https://rustlabs.com/img/items180/" 
 
 file = open("./www/javascript/recycling.json", "r")
 data = json.load(file)
@@ -15,6 +18,18 @@ file.close()
 
 items_names = data.keys()
 items_count = len(items_names)
+
+# Choose between 40 and 180 ( > better quality )
+quality = "180"
+
+if quality == "40":
+    global_path = global_path_40
+    global_url = global_url_40
+elif quality == "180":
+    global_path = global_path_180
+    global_url = global_url_180
+else:
+    print(Colors.CRED + "Error getting image quality" + Colors.CEND)
 
 for index, item in enumerate(items_names):
     img_name = data[item]["path"]

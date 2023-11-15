@@ -11,4 +11,11 @@ const outputItemsContainer = document.getElementById("output-items-container")
 
 
 // Adding elements to ITEMS section
+function createItemBox(item_name) {
+    let path = "./www/misc/item/" + rItems[item_name]["path"]
 
+    let box = document.createElement("div")
+    box.classList.add
+}
+
+createItemBox("Rope")
