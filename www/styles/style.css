@@ -4,7 +4,7 @@
     --c-white: rgb(246, 234, 224);
     --c-grey: rgb(139, 132, 127);
 
-    --grid-item-size: 95px;
+    --grid-item-size: 90px;
     --grid-item-gap: 5px;
 }
 
@@ -19,6 +19,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .background {
@@ -49,7 +55,7 @@ body {
     font-weight: bold;
 }
 
-.items-container {
+.wrapper {
     display: flex;
     width: fit-content;
     flex-direction: column;
@@ -60,7 +66,7 @@ body {
     backdrop-filter: blur(2.5px);
 }
 
-.items-box {
+.items-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: fit-content;
@@ -75,9 +81,12 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
-
-.items-box::-webkit-scrollbar {
+.items-container::-webkit-scrollbar {
     display: none;
+}
+
+#all-items-container {
+    grid-template-columns: repeat(7,1fr);
 }
 
 
@@ -91,4 +100,8 @@ body {
 
     background-color: color-mix(in srgb, var(--c-grey) 50%, transparent);
     backdrop-filter: blur(2.5px);
+}
+#output-items-container .item-box:last-child, #input-items-container .item-box:last-child {
+    /* Fixing gap on the last row */
+    margin-bottom: var(--grid-item-gap) !important;
 }

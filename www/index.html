@@ -14,8 +14,9 @@
         rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Javascript -->
-    <script src="./javascript/recycler.js" type="module"></script>
-    <script src="./javascript/javascript.js" defer></script>
+    <script type="module" src="./javascript/recycler.js"></script>
+    <script type="module" src="./javascript/javascript.js" defer></script>
+    <script type="text/javascript" src="./javascript/background.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,69 +40,127 @@
     <main class="d-flex align-items-center h-100">
 
         <!-- SELECTING ITEMS -->
-        <div class="col-lg-6 bg"></div>
+        <div class="col-lg-6 d-flex justify-content-end align-items-center mt-5 pt-5 pe-3">
+
+            <div class="d-flex flex-column">
+
+                <div class="d-flex justify-content-between">
+                    <h1 class="text-title mb-3">RECYCLER</h1>
+
+                    <div class="d-flex align-items-center gap-2">
+                        <input type="checkbox" name="full-recycle" id="full-recycle-checkbox">
+                        <label for="full-recycle-checkbox" class="fw-bold">Full Recycle</label>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <!-- Input -->
+                    <div class="row title-box p-2 ps-3">
+                        <h5>Search</h5>
+                    </div>
+                    
+                    <div class="items-container" id="all-items-container">
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
 
         <!-- INPUT/OUTPUT -->
-        <div class="col-lg-6 d-flex flex-column justify-content-centermt-5 pt-5">
+        <div class="col-lg-6 d-flex justify-content-start align-items-center mt-5 pt-5 ps-5">
 
             <!-- Title -->
-            <h1 class="text-title mb-3">RECYCLER</h1>
-            
-            <div class="items-container">
-                <!-- Input -->
-                <div class="row title-box p-2 ps-3">
-                    <h5>Input</h5>
-                </div>
-                
-                <div class="items-box">
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                </div>
+            <div class="d-flex flex-column">
 
-                <!-- Output -->
-                <div class="row title-box p-2 ps-3">
-                    <h5>Output</h5>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h1 class="text-title">RECYCLER</h1>
                 </div>
                 
-                <div class="items-box">
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
+                <div class="wrapper">
+                    <!-- Input -->
+                    <div class="row title-box p-2 ps-3">
+                        <h5>Input</h5>
+                    </div>
                     
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
-                    <div class="item-box"></div>
+                    <div class="items-container" id="input-items-container">
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                    </div>
+
+                    <!-- Output -->
+                    <div class="row title-box p-2 ps-3">
+                        <h5>Output</h5>
+                    </div>
+                    
+                    <div class="items-container" id="output-items-container">
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                        <div class="item-box"></div>
+                    </div>
                 </div>
 
             </div> 
