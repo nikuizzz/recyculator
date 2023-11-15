@@ -5,6 +5,8 @@ import json
 from colors import Colors
 import os
 
+headers={"User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+
 # metal.fragments.png
 global_path_40 = "./www/misc/items40/"
 global_url_40 = "https://rustlabs.com/img/items40/" 
@@ -39,14 +41,14 @@ for index, item in enumerate(items_names):
 
     print(f"Downloading {Colors.CYELLOW + img_name + Colors.CEND} ( {index}/{items_count} )")
     url = global_url + img_name
-    res = requests.get(url, stream = True)
+    res = requests.get(url, stream = True, headers=headers)
 
     save_path = global_path + img_name
     if res.status_code == 200:
         with open(save_path,'wb') as f:
             shutil.copyfileobj(res.raw, f)
     else:
-        print(f'Error getting {img_name} image')
+        print(f'Error getting {Colors.CRED + img_name + Colors.CEND} image, code {Colors.CRED + str(res.status_code) + Colors.CEND}')
 
 
 
