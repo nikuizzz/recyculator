@@ -11,11 +11,25 @@ const outputItemsContainer = document.getElementById("output-items-container")
 
 
 // Adding elements to ITEMS section
-function createItemBox(item_name) {
-    let path = "./www/misc/item/" + rItems[item_name]["path"]
+function createBox(item_name, quality = 180) {
+    let path = `./misc/items${quality}/${rItems[item_name]["path"]}`
+    console.log(path)
 
     let box = document.createElement("div")
-    box.classList.add
+    box.classList.add("item-box")
+
+    let img = document.createElement("img")
+    img["src"] = path
+    img["item"] = item_name
+    img["alt"] = item_name
+
+    box.appendChild(img)
+
+    return box
 }
 
-createItemBox("Rope")
+rKeys.forEach( item => {
+    allItemsContainer.appendChild(createBox(item))
+})
+
+// allItemsContainer.appendChild(createBox("Rope"))
