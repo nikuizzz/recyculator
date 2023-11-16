@@ -38,33 +38,33 @@ export function sumItems(items) {
     return items
 }
 
-export function recycle(resource, amount) {
+export function recycle(item, amount) {
     let result = {}
-    let item = resource
+    let isRecyclable 
 
     // Veryfiying if item can be recycled
     if(rKeys.includes(item)) {
-        let resources = Object.entries(rItems[item]["resources"])
+        if(rItems[item]["recyclable"]) {
+            let resources = Object.entries(rItems[item]["resources"])
 
-        // Adding recycled materials to result
-        for(let i = 0; i < resources.length; i++) {
+            // Adding recycled materials to result
+            for(let i = 0; i < resources.length; i++) {
 
-            let resourceName = resources[i][0]
-            let recycleAmount = resources[i][1][0]
-            let chance = resources[i][1][1]
+                let resourceName = resources[i][0]
+                let recycleAmount = resources[i][1][0]
+                let chance = resources[i][1][1]
 
-            let value = recycleAmount * (chance / 100) * amount
+                let value = recycleAmount * (chance / 100) * amount
 
-            result[resourceName] = value;
+                result[resourceName] = value;
+            }
+
+            return result
         }
-
-        return result
-    } 
-    // If item is not in rItems
-    else {
-        result[item] = amount
-        return result
     }
+    // If item is not in rItems
+    result[item] = amount
+    return result
 }
 
 export function recycleAll(items, fullRecycle) {
@@ -94,8 +94,10 @@ export function recycleAll(items, fullRecycle) {
                 let resourceName = keys[i]
 
                 if(rKeys.includes(resourceName)) {
-                    result = recycleAll(result, true)
-                    break
+                    if(rItems[resourceName]["recyclable"]) {
+                        result = recycleAll(result, true)
+                        break
+                    }
                 }
             }
 
@@ -106,4 +108,5 @@ export function recycleAll(items, fullRecycle) {
     return result
 }
 
-// console.log(recycleAll({"Sewing Kit": 3, "Rope": 10, "Tarp": 3, "Gears": 3, "Electric Fuse": 4}, true))
+// console.log("result recycling : ")
+console.log(recycleAll({"Sewing Kit": 3, "Rope": 10, "Tarp": 3, "Gears": 3, "Electric Fuse": 4}, true))

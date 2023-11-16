@@ -60,7 +60,7 @@ function createBox(item_name="", quality = 80) {
     return box
 }
 
-// Dict with all items
+// Dict with all items HTML boxes
 const allItems = {}
 
 rKeys.forEach( key => { allItems[key] = createBox(key) })
@@ -68,7 +68,6 @@ rKeys.forEach( key => { allItems[key] = createBox(key) })
 // Search needle
 search.addEventListener("input", () => {
     let needle = search.value
-
     renderItems(needle)
 })
 
@@ -81,7 +80,9 @@ function renderItems(needle) {
     // If no search parameter is set, rendering all items
     if(needle === "") {
         Object.keys(allItems).forEach( key => {
-            allItemsContainer.appendChild(allItems[key])
+            if(rItems[key]["recyclable"]) {
+                allItemsContainer.appendChild(allItems[key])
+            }
         })
     }
     // Else -> Searching for corresponding items 
@@ -108,7 +109,9 @@ function renderItems(needle) {
 
                 if(display_this_item) {
                     let item_name = sKeys[search_key]
-                    currentlyDisplayedItems[item_name] = allItems[item_name]
+                    if(rItems[item_name]["recyclable"]) {
+                        currentlyDisplayedItems[item_name] = allItems[item_name]
+                    }
                 }
             })
         }
@@ -117,7 +120,9 @@ function renderItems(needle) {
             search_keys.forEach( search_key => {
                 if(search_key.includes(needle)) {
                     let item_name = sKeys[search_key]
-                    currentlyDisplayedItems[item_name] = allItems[item_name]
+                    if(rItems[item_name]["recyclable"]) {
+                        currentlyDisplayedItems[item_name] = allItems[item_name]
+                    }
                 }
             })
         }
@@ -125,7 +130,7 @@ function renderItems(needle) {
 
         // console.log("Found items for : " + needle)
         // console.log(currentlyDisplayedItems)
-        
+
         Object.values(currentlyDisplayedItems).forEach( item => {
             allItemsContainer.appendChild(item)
         })
@@ -158,8 +163,9 @@ function renderInput() {
 
 // Render recycled items
 function renderOutput() {
+    // console.log(inputItems)
     outputItems = recycleAll(inputItems, fullRecycle)
-    console.log(outputItems)
+    // console.log(outputItems)
 
     outputItemsContainer.innerHTML = ""
 

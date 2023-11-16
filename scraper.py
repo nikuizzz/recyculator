@@ -17,7 +17,7 @@ items = {}
 # Cycling through each table row to get every recyclable item name
 for cell in bs.findAll('tr')[1::]:
     links = cell.findAll("a")
-    path = cell.find("img")['src'].split("/")[-1]
+    path = cell.find("img")['src'].split("/")[-1].replace("%","")
 
     # Getting the name of the item
     name = links[0].text
@@ -51,14 +51,14 @@ for key in list(items.keys()).copy():
         # Adding the resource in the items dict if it is not already inside of it
         # It allows to get every raw material that we can get from recycling items
         if resource_name not in items.keys():
-            path = link.find("img")['src'].split("/")[-1]
+            r_path = link.find("img")['src'].split("/")[-1].replace("%", "")
 
             item = {
                 "name": resource_name,
                 "recyclable": False,
                 "resources": {},
                 "category": "Resource",
-                "path": path,
+                "path": r_path,
             }
 
             items[resource_name] = item

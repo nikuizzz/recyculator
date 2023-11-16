@@ -13,7 +13,7 @@
             ]
         },
         "category": "Attire",
-        "path": "skull.wolf.png"
+        "path": "hat.wolf.png"
     },
     "Fogger-3000": {
         "name": "Fogger-3000",
@@ -33,7 +33,7 @@
             ]
         },
         "category": "Attire",
-        "path": "metal.fragments.png"
+        "path": "fogmachine.png"
     },
     "Strobe Light": {
         "name": "Strobe Light",
@@ -49,7 +49,7 @@
             ]
         },
         "category": "Attire",
-        "path": "metal.refined.png"
+        "path": "strobelight.png"
     },
     "Kayak": {
         "name": "Kayak",
@@ -69,7 +69,7 @@
             ]
         },
         "category": "Attire",
-        "path": "wood.png"
+        "path": "kayak.png"
     },
     "MLRS Aiming Module": {
         "name": "MLRS Aiming Module",
@@ -185,7 +185,7 @@
             ]
         },
         "category": "Attire",
-        "path": "stones.png"
+        "path": "arrow.wooden.png"
     },
     "Bone Arrow": {
         "name": "Bone Arrow",
@@ -201,7 +201,7 @@
             ]
         },
         "category": "Attire",
-        "path": "bone.fragments.png"
+        "path": "arrow.bone.png"
     },
     "Fire Arrow": {
         "name": "Fire Arrow",
@@ -285,7 +285,7 @@
             ]
         },
         "category": "Attire",
-        "path": "sulfur.png"
+        "path": "ammo.pistol.fire.png"
     },
     "HV Pistol Ammo": {
         "name": "HV Pistol Ammo",
@@ -1069,7 +1069,7 @@
             ]
         },
         "category": "Attire",
-        "path": "leather.png"
+        "path": "burlap.gloves.png"
     },
     "Roadsign Gloves": {
         "name": "Roadsign Gloves",
@@ -1477,7 +1477,7 @@
             ]
         },
         "category": "Attire",
-        "path": "lumberjack%20hoodie.png"
+        "path": "lumberjack20hoodie.png"
     },
     "Improvised Balaclava": {
         "name": "Improvised Balaclava",
@@ -1997,7 +1997,7 @@
             ]
         },
         "category": "Attire",
-        "path": "glue.png"
+        "path": "ducttape.png"
     },
     "Low Quality Carburetor": {
         "name": "Low Quality Carburetor",
@@ -2189,7 +2189,7 @@
             ]
         },
         "category": "Attire",
-        "path": "scrap.png"
+        "path": "fuse.png"
     },
     "Gears": {
         "name": "Gears",
@@ -3109,7 +3109,7 @@
             ]
         },
         "category": "Attire",
-        "path": "pumpkin.png"
+        "path": "jackolantern.angry.png"
     },
     "Jack O Lantern Happy": {
         "name": "Jack O Lantern Happy",
@@ -5513,7 +5513,7 @@
             ]
         },
         "category": "Attire",
-        "path": "fat.animal.png"
+        "path": "largecandles.png"
     },
     "Small Candle Set": {
         "name": "Small Candle Set",
@@ -5609,7 +5609,7 @@
             ]
         },
         "category": "Attire",
-        "path": "humanmeat.raw.png"
+        "path": "frankensteins.monster.01.head.png"
     },
     "Light Frankenstein Legs": {
         "name": "Light Frankenstein Legs",
@@ -5833,7 +5833,7 @@
             ]
         },
         "category": "Attire",
-        "path": "skull.human.png"
+        "path": "skullspikes.png"
     },
     "Skull Door Knocker": {
         "name": "Skull Door Knocker",
@@ -6465,7 +6465,7 @@
             ]
         },
         "category": "Attire",
-        "path": "crude.oil.png"
+        "path": "coal.png"
     },
     "Sled": {
         "name": "Sled",
@@ -6537,7 +6537,7 @@
             ]
         },
         "category": "Attire",
-        "path": "charcoal.png"
+        "path": "snowman.png"
     },
     "Reindeer Antlers": {
         "name": "Reindeer Antlers",
