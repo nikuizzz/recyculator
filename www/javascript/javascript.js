@@ -3,7 +3,7 @@
 // recycler.js so it can be imported there
 import { rItems, rKeys, recycle, recycleAll} from "./recycler.js"
 
-var fullRecycle = true
+var fullRecycle = false
 
 const allItemsContainer = document.getElementById("all-items-container")
 const inputItemsContainer = document.getElementById("input-items-container")
@@ -22,40 +22,58 @@ rKeys.forEach( original_key => {
 })
 
 // Create itemBox
-function createBox(item_name="", quality = 80) {
+function getItemBox(type="default", item="", count = -1, quality = 80) {
     let box = document.createElement("div")
     box.classList.add("item-box")
 
     // Init empty box
-    if(item_name === "") {
+    if(type === "empty") {
         return box
     }
 
-    let path = `./misc/items${quality}/${rItems[item_name]["path"]}`
-    // console.log(path)
+    let path = `./misc/items${quality}/${rItems[item]["path"]}`
 
     let img = document.createElement("img")
     img["src"] = path
-    img["item"] = item_name
-    img["alt"] = item_name
+    img["item"] = item
+    img["alt"] = item
 
     box.appendChild(img)
 
-    box.addEventListener("click", () => {
-        if(Object.keys(inputItems).includes(item_name)) {
-            inputItems[item_name] += 1
-        }
-        else {
-            if(Object.keys(inputItems).length < 12) {
-                inputItems[item_name] = 1
+    // INSIDE OF ITEMS CONTAINER
+    // adds items to input container on click, and recycles it
+    if(type === "default") {
+        box.addEventListener("click", () => {
+            if(Object.keys(inputItems).includes(item)) {
+                inputItems[item] += 1
             }
             else {
-                alert("Max")
+                if(Object.keys(inputItems).length < 12) {
+                    inputItems[item] = 1
+                }
+                else {
+                    alert("Max")
+                }
             }
-        }
-
-        renderInput()
-    })
+            
+            renderInput()
+        })
+    }
+    // INSIDE OF INPUT CONTAINER
+    // ?
+    else if(type === "input") {
+        let wrapper = document.createElement("div")
+        let input = document.createElement("input")
+        input.classList.add("item-count-input")
+    }
+    // INSIDE OF OUTPUT CONTAINER
+    // no interactions, just display items + count
+    else if(type === "output") {
+        let span = document.createElement("span")
+        span.classList.add("item-counter")
+        span.innerHTML = "x" + count
+        box.appendChild(span)
+    }
 
     return box
 }
@@ -63,7 +81,7 @@ function createBox(item_name="", quality = 80) {
 // Dict with all items HTML boxes
 const allItems = {}
 
-rKeys.forEach( key => { allItems[key] = createBox(key) })
+rKeys.forEach( key => { allItems[key] = getItemBox("default", key) })
 
 // Search needle
 search.addEventListener("input", () => {
@@ -145,17 +163,14 @@ var outputItems = {}
 
 // Render selected items
 function renderInput() {
-    // console.log("input")
-    // console.log(inputItemsBoxes)
-
     inputItemsContainer.innerHTML = ""
 
-    Object.keys(inputItems).forEach( item_name => {
-        inputItemsContainer.appendChild(createBox(item_name))
+    Object.keys(inputItems).forEach( item => {
+        inputItemsContainer.appendChild(getItemBox("input", item))
     })
 
     for(let i = 0; i < 12 - Object.keys(inputItems).length; i++) {
-        inputItemsContainer.appendChild(createBox())
+        inputItemsContainer.appendChild(getItemBox("empty"))
     }
 
     renderOutput()
@@ -163,33 +178,20 @@ function renderInput() {
 
 // Render recycled items
 function renderOutput() {
-    // console.log(inputItems)
     outputItems = recycleAll(inputItems, fullRecycle)
-    // console.log(outputItems)
 
     outputItemsContainer.innerHTML = ""
 
     // Adding recycling items to the output container
-    Object.keys(outputItems).forEach( item_name => {
-        console.log("adding this item container : " + item_name)
-        outputItemsContainer.appendChild(createBox(item_name))
+    Object.keys(outputItems).forEach( item => {
+        let count = outputItems[item]
+        outputItemsContainer.appendChild(getItemBox("output", item, count))
     })
 
     for(let i = 0; i < 12 - Object.keys(outputItems).length; i++) {
-        outputItemsContainer.appendChild(createBox())
+        outputItemsContainer.appendChild(getItemBox("empty"))
     }
-
-    // Filling the remaining boxes
-
-    // Object.keys(inputItems).forEach( item_name => {
-    //     inputItemsContainer.appendChild(createBox(item_name))
-    // })
-
-    // for(let i = 0; i < 12 - Object.keys(inputItems).length; i++) {
-    //     inputItemsContainer.appendChild(createBox())
-    // }
 }
-
 
 renderInput()
 
