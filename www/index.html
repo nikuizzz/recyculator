@@ -17,11 +17,15 @@
     <script type="module" src="./javascript/recycler.js"></script>
     <script type="module" src="./javascript/javascript.js" defer></script>
     <script type="text/javascript" src="./javascript/background.js" defer></script>
-
+    <script type="text/javascript" src="./javascript/debug.js" defer></script>
+²
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Google Search Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
@@ -39,9 +43,9 @@
 
     <main class="d-flex justify-content-center align-items-center gap-5 h-100">
         <!-- SELECTING ITEMS -->
-        <div class="flex-center bg-danger p-1">
+        <div class="flex-center p-1 debug">
 
-            <div class="d-flex flex-column bg-success">
+            <div class="d-flex flex-column debug">
 
                 <div class="d-flex justify-content-between">
                     <h1 class="text-title mb-3">ITEMS</h1>
@@ -53,12 +57,15 @@
                 </div>
 
                 <div class="wrapper">
-                    <!-- Input -->
-                    <div class="row title-box p-2 ps-3">
-                        <h5>Search</h5>
+                    <!-- Search -->
+                    <div class="row title-box p-2 ps-2">
+                        <div class="d-flex align-items-center">
+                            <span class="material-symbols-outlined me-1">search</span>
+                            <input type="text" id="items-search" placeholder="Search" maxlength="40">
+                        </div>
                     </div>
                     
-                    <div class="items-container" id="all-items-container">
+                    <div class="items-container debug" id="all-items-container">
                         <!-- ITEMS APPEAR HERE -->
                     </div>
                 </div>
@@ -69,10 +76,10 @@
         </div>
 
         <!-- INPUT/OUTPUT -->
-        <div class="flex-center bg-warning p-1">
+        <div class="flex-center p-1 debug">
 
             <!-- Title -->
-            <div class="d-flex flex-column bg-primary">
+            <div class="d-flex flex-column debug">
 
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h1 class="text-title">RECYCLER</h1>
