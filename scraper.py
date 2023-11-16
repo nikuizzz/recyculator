@@ -17,7 +17,6 @@ items = {}
 for cell in bs.findAll('tr')[1::]:
     links = cell.findAll("a")
 
-    
     path = cell.find("img")['src'].split("/")[-1]
 
     # Getting the name of the item
@@ -51,6 +50,7 @@ for cell in bs.findAll('tr')[1::]:
 
     item = {
         "name": name,
+        "recyclable": isRecyclable,
         "resources": resources,
         "category": category,
         "path": path,

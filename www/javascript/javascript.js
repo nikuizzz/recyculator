@@ -3,6 +3,8 @@
 // recycler.js so it can be imported there
 import { rItems, rKeys, recycle, recycleAll} from "./recycler.js"
 
+var fullRecycle = true
+
 const allItemsContainer = document.getElementById("all-items-container")
 const inputItemsContainer = document.getElementById("input-items-container")
 const outputItemsContainer = document.getElementById("output-items-container")
@@ -20,12 +22,17 @@ rKeys.forEach( original_key => {
 })
 
 // Create itemBox
-function createBox(item_name, quality = 180) {
-    let path = `./misc/items${quality}/${rItems[item_name]["path"]}`
-    // console.log(path)
-
+function createBox(item_name="", quality = 80) {
     let box = document.createElement("div")
     box.classList.add("item-box")
+
+    // Init empty box
+    if(item_name === "") {
+        return box
+    }
+
+    let path = `./misc/items${quality}/${rItems[item_name]["path"]}`
+    // console.log(path)
 
     let img = document.createElement("img")
     img["src"] = path
@@ -33,6 +40,22 @@ function createBox(item_name, quality = 180) {
     img["alt"] = item_name
 
     box.appendChild(img)
+
+    box.addEventListener("click", () => {
+        if(Object.keys(inputItems).includes(item_name)) {
+            inputItems[item_name] += 1
+        }
+        else {
+            if(Object.keys(inputItems).length < 12) {
+                inputItems[item_name] = 1
+            }
+            else {
+                alert("Max")
+            }
+        }
+
+        renderInput()
+    })
 
     return box
 }
@@ -57,8 +80,6 @@ function renderItems(needle) {
 
     // If no search parameter is set, rendering all items
     if(needle === "") {
-        console.log("displaying all items")
-
         Object.keys(allItems).forEach( key => {
             allItemsContainer.appendChild(allItems[key])
         })
@@ -113,3 +134,56 @@ function renderItems(needle) {
 
 // First call on page load
 renderItems("")
+
+var inputItems = {}
+var outputItems = {}
+
+// Render selected items
+function renderInput() {
+    // console.log("input")
+    // console.log(inputItemsBoxes)
+
+    inputItemsContainer.innerHTML = ""
+
+    Object.keys(inputItems).forEach( item_name => {
+        inputItemsContainer.appendChild(createBox(item_name))
+    })
+
+    for(let i = 0; i < 12 - Object.keys(inputItems).length; i++) {
+        inputItemsContainer.appendChild(createBox())
+    }
+
+    renderOutput()
+}
+
+// Render recycled items
+function renderOutput() {
+    outputItems = recycleAll(inputItems, fullRecycle)
+    console.log(outputItems)
+
+    outputItemsContainer.innerHTML = ""
+
+    // Adding recycling items to the output container
+    Object.keys(outputItems).forEach( item_name => {
+        console.log("adding this item container : " + item_name)
+        outputItemsContainer.appendChild(createBox(item_name))
+    })
+
+    for(let i = 0; i < 12 - Object.keys(outputItems).length; i++) {
+        outputItemsContainer.appendChild(createBox())
+    }
+
+    // Filling the remaining boxes
+
+    // Object.keys(inputItems).forEach( item_name => {
+    //     inputItemsContainer.appendChild(createBox(item_name))
+    // })
+
+    // for(let i = 0; i < 12 - Object.keys(inputItems).length; i++) {
+    //     inputItemsContainer.appendChild(createBox())
+    // }
+}
+
+
+renderInput()
+

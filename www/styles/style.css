@@ -12,6 +12,7 @@
     --c-red: rgb(206, 66, 43);
     --c-white: rgb(246, 234, 224);
     --c-grey: rgb(139, 132, 127);
+    --c-grey-hover: rgb(152, 147, 142);
 
     --grid-item-size: 90px;
     --grid-item-gap: 5px;
@@ -23,13 +24,6 @@
     color: var(--c-white) !important;
     font-family: 'Roboto', sans-serif;
 }
-
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
 .flex-center {
     display: flex;
     justify-content: center;
@@ -112,6 +106,14 @@ body {
 
     background-color: color-mix(in srgb, var(--c-grey) 50%, transparent);
     backdrop-filter: blur(2.5px);
+
+    transition: background-color 0.2s;
+}
+.item-box:hover {
+    background-color: color-mix(in srgb, var(--c-grey-hover) 50%, transparent);
+}
+.item-box:not(#output-items-container .item-box):hover {
+    cursor: pointer;
 }
 
 .items-container .item-box:last-child {

@@ -106,4 +106,4 @@ export function recycleAll(items, fullRecycle) {
     return result
 }
 
-console.log(recycleAll({"Sewing Kit": 3, "Rope": 10, "Tarp": 3, "Gears": 3, "Electric Fuse": 4}, true))
+// console.log(recycleAll({"Sewing Kit": 3, "Rope": 10, "Tarp": 3, "Gears": 3, "Electric Fuse": 4}, true))
