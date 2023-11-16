@@ -1,7 +1,8 @@
 __pycache__/
-# www/misc/backgrounds/
-# www/misc/items40/
-# www/misc/items180/
-# www/misc/img/
-# www/misc/videos/
+www/misc/backgrounds/
+www/misc/items40/
+www/misc/items180/
+www/misc/img/
+www/misc/videos/
 
+# git rm -r --cached 'filename' to remove tracked files 
