@@ -1,0 +1,114 @@
+:root {
+    --c-black: rgb(30, 32, 32);
+    --c-red: rgb(206, 66, 43);
+    --c-white: rgb(246, 234, 224);
+    --c-grey: rgb(139, 132, 127);
+
+    --grid-item-size: 90px;
+    --grid-item-gap: 5px;
+}
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: var(--c-white) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    transition: opacity 5s;
+
+    filter: brightness(.55);
+}
+
+#next-bg {
+    opacity: 0;
+}
+
+#logo-img {
+    height: 60px;
+}
+
+.text-title {
+    width: fit-content !important;
+    display: inline;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.title-box {
+    background-color: color-mix(in srgb, var(--c-grey) 80%, transparent);
+    backdrop-filter: blur(2.5px);
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: fit-content;
+
+    gap: var(--grid-item-gap);
+    margin-block: 15px !important;
+    margin-inline: 12.5px !important;
+
+    max-height: calc( (var(--grid-item-size) + var(--grid-item-gap)) * 2 );
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.items-container::-webkit-scrollbar {
+    display: none;
+}
+
+#all-items-container {
+    grid-template-columns: repeat(7,1fr);
+    max-height: calc( (var(--grid-item-size) + var(--grid-item-gap)) * 5 );
+}
+
+
+.item-box {
+    height: var(--grid-item-size);
+    width: var(--grid-item-size);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: color-mix(in srgb, var(--c-grey) 50%, transparent);
+    backdrop-filter: blur(2.5px);
+}
+
+#output-items-container .item-box:last-child, #input-items-container .item-box:last-child {
+    /* Fixing gap on the last row */
+    margin-bottom: var(--grid-item-gap) !important;
+}
+
+.item-box img {
+    height: 80%;
+    width: 80%;
+}
