@@ -287,8 +287,6 @@ function renderOutput() {
     outputItemsContainer.scrollBy({top: outputItemsContainer.offsetHeight})
 }
 
-
-
 // Search
 search.addEventListener("input", () => {
     let needle = search.value

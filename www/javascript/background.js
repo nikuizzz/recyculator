@@ -1,3 +1,5 @@
+var isCycleBackground = false
+
 var current_bg = ""
 var next_bg = ""
 
@@ -18,13 +20,12 @@ let backgrounds = {
 }
 
 function cycleBackground(next_bg) {
-    // First call
     if(next_bg === "") {
         current_bg = getRandomBackground(current_bg)
         setBackground(getPath(current_bg))
     }
-    // Cycle
-    else {
+
+    if(isCycleBackground) {
         // Updating next background
         setNextBackground(getPath(next_bg))
 
@@ -38,14 +39,15 @@ function cycleBackground(next_bg) {
         let temp = current_bg_cont
         current_bg_cont = next_bg_cont
         next_bg_cont = temp
+
+        next_bg = getRandomBackground(next_bg)
+    } else {
+        next_bg = current_bg
     }
-
-
-    next_bg = getRandomBackground()
-
+    
     setTimeout(() => {
         cycleBackground(next_bg)
-    }, 15000)
+    }, 1500)
 }
 
 function getRandomBackground(background) {
@@ -68,7 +70,9 @@ function setNextBackground(path) {
     next_bg_cont.style.backgroundImage = `url("${path}")`
 }
 
-setBackground(getPath(Object.keys(backgrounds)[4]))
+// setBackground(getPath(Object.keys(backgrounds)[4]))
+
+cycleBackground("")
 
 
 // Frontend fix
