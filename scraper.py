@@ -80,10 +80,14 @@ for key in list(items.keys()).copy():
             else:
                 resource_count = resource_count[1::]
 
+        resource_count = resource_count.replace(",", "")
         resources[resource_name] = [resource_count, probability]
 
     # Getting category
     category = cell.findAll("td")[-1].text
+
+    if name == "Low Grade Fuel":
+        isRecyclable = False
 
     item = {
         "name": name,
@@ -96,8 +100,8 @@ for key in list(items.keys()).copy():
     items[name] = item
 
 
-with open("./www/javascript/recycling.json", "w") as file: 
-    json.dump(items, file, indent=4)
+# with open("./www/javascript/recycling.json", "w") as file: 
+#     json.dump(items, file, indent=4)
 
 with open("./recycling.json", "w") as file: 
     json.dump(items, file, indent=4)

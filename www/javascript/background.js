@@ -68,7 +68,7 @@ function setNextBackground(path) {
     next_bg_cont.style.backgroundImage = `url("${path}")`
 }
 
-setBackground(getPath(Object.keys(backgrounds)[1]))
+setBackground(getPath(Object.keys(backgrounds)[4]))
 
 
 // Frontend fix
@@ -76,10 +76,6 @@ let rightSideContent = document.getElementById("right-side-container")
 let leftSideContent = document.getElementById("left-side-container")
 
 let heightDifference = leftSideContent.offsetHeight - rightSideContent.offsetHeight
-let recyclerWrapper = ""
 
 // Adding margin to input-items-container so the ITEMS side and the RECYCLER side are same height
 document.getElementById("recycler-wrapper").style.gap = `${heightDifference}px`
-// marginCont.style.marginBottom = `200px`
-// document.getElementById("test").style.marginBottom = "200px"
-// console.log(marginCont.style.marginBottom)

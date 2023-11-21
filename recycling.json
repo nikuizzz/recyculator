@@ -704,7 +704,7 @@
         "recyclable": true,
         "resources": {
             "Stones": [
-                "1,500",
+                "1500",
                 "100"
             ],
             "Gears": [
@@ -720,7 +720,7 @@
         "recyclable": true,
         "resources": {
             "Wood": [
-                "1,500",
+                "1500",
                 "100"
             ],
             "Gears": [
@@ -6865,7 +6865,7 @@
     },
     "Low Grade Fuel": {
         "name": "Low Grade Fuel",
-        "recyclable": true,
+        "recyclable": false,
         "resources": {
             "Animal Fat": [
                 "1",
